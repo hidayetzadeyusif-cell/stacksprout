@@ -44,7 +44,7 @@ This will open an interactive window displaying the recursive call tree for `fib
 
 ---
 
-## How it Works
+## Design Overview
 
 StackSprout operates in two phases:
 
@@ -84,7 +84,7 @@ Additional examples can be found in the `examples/` directory:
 
 ## License
 
-This product is licensed under the **MIT license**.
+This project is licensed under the **MIT license**.
 
 ---
 
