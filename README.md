@@ -4,6 +4,8 @@
 
 It helps you *see* how recursion grows, branches, and unwinds — making it useful for learning, debugging, and exploration.
 
+Unlike debuggers or profilers, StackSprout records execution first and visualizes it afterward, enabling deterministic playback and timeline control.
+
 ---
 
 ## Features
