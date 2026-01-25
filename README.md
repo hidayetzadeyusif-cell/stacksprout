@@ -1,5 +1,7 @@
 # StackSprout
 
+![StackSprout demo](assets/stacksprout-example.gif)
+
 **StackSprout** is a Python library for visualizing recursive function execution as interactive call trees with optional timeline-based animation.
 
 It helps you *see* how recursion grows, branches, and unwinds — making it useful for learning, debugging, and exploration.
