@@ -2,21 +2,28 @@
 
 ![StackSprout demo](assets/stacksprout-example.gif)
 
-**StackSprout** is a Python library for visualizing recursive function execution as interactive call trees with optional timeline-based animation.
+**StackSprout** is a Python library for visualizing the execution of recursive functions as interactive call trees, with optional timeline-based animation.
 
 It helps you *see* how recursion grows, branches, and unwinds — making it useful for learning, debugging, and exploration.
 
 Unlike debuggers or profilers, StackSprout records execution first and visualizes it afterward, enabling deterministic playback and timeline control.
 
+Perfect for students, educators, and developers who want to understand why recursive code behaves the way it does.
+
+---
+
+## Why Use StackSprout?
+
+StackSprout makes recursion *visible*. Unlike debuggers that show the state at a single point in time, or profilers that focus on performance metrics, StackSprout lets you step through the entire call lifecycle of recursive functions. This makes it an invaluable tool for learning, teaching, and debugging recursive algorithms.
+
 ---
 
 ## Features
 
-- Visualize recursive calls as a clean tree layout
+- Visualize recursive calls as an interactive, clean tree layout
 - Static and animated execution modes
 - Timeline scrubbing, stepping, and playback controls
-- Interactive canvas with pan and zoom
-- Clickable nodes with detailed call information
+- Interactive canvas with pan, zoom, and click-to-inspect nodes
 - Synchronized tree and hierarchy views
 - Works with any recursive Python function
 
@@ -42,7 +49,7 @@ fib(6)
 visualize_tree(fib)
 ```
 
-This will open an interactive window displaying the recursive call tree for `fib(6)`.
+This opens an interactive window where you can scrub, step through, and replay the recursive call tree for `fib(6)`.
 
 ---
 
@@ -50,12 +57,10 @@ This will open an interactive window displaying the recursive call tree for `fib
 
 StackSprout operates in two phases:
 
-1. **Tracing phase**
-    - A decorator (`@trace`) records function entry and exit events during execution.
-    - Each call is stored with its arguments, return value, and timing information.
-2. **Visualization phase**
-    - After execution, the recorded data is converted into a call tree.
-    - The tree can be viewed statically or played back as an animation over time.
+1. **Tracing phase**  
+   A decorator (`@trace`) records function entry, exit, and timing information during execution.
+2. **Visualization phase**  
+   After execution, the recorded data is turned into a visual call tree, which can be explored statically or animated over time.
 
 This design ensures deterministic, debuggable visualizations without interfering with runtime behavior.
 
@@ -86,7 +91,7 @@ Additional examples can be found in the `examples/` directory:
 
 ## License
 
-This project is licensed under the **MIT license**.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
