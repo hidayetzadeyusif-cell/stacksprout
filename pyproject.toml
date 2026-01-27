@@ -15,6 +15,16 @@ requires-python = ">=3.10"
 
 dependencies = ["sortedcontainers"]
 
+keywords = ["recursion", "visualization", "education", "debugging"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Topic :: Software Development :: Debuggers",
+]
+
 [project.urls]
 Homepage = "https://github.com/hidayetzadeyusif-cell/stacksprout"
 Repository = "https://github.com/hidayetzadeyusif-cell/stacksprout"
