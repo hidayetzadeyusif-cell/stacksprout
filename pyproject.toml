@@ -7,7 +7,8 @@ name = "stacksprout"
 version = "0.1.0"
 description = "Visualize recursive Python functions as interactive call trees with timeline-based animation."
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "Yusif Hidayetzade" }
 ]
@@ -20,10 +21,13 @@ keywords = ["recursion", "visualization", "education", "debugging"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
-    "License :: OSI Approved :: MIT License",
     "Intended Audience :: Education",
     "Topic :: Software Development :: Debuggers",
 ]
+
+[tool.setuptools]
+packages = ["stacksprout"]
+include-package-data = true
 
 [project.urls]
 Homepage = "https://github.com/hidayetzadeyusif-cell/stacksprout"
