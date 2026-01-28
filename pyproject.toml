@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stacksprout"
-version = "0.1.0"
+version = "0.1.1"
 description = "Visualize recursive Python functions as interactive call trees with timeline-based animation."
 readme = "README.md"
 license = "MIT"
