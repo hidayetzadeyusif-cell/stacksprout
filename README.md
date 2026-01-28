@@ -1,6 +1,6 @@
 # StackSprout
 
-![StackSprout demo](assets/stacksprout-example.gif)
+![StackSprout demo](https://raw.githubusercontent.com/hidayetzadeyusif-cell/stacksprout/main/assets/stacksprout-example.gif)
 
 **StackSprout** is a Python library for visualizing the execution of recursive functions as interactive call trees, with optional timeline-based animation.
 
@@ -93,7 +93,7 @@ Additional examples can be found in the `examples/` directory:
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **MIT License**. See the license on [GitHub](https://github.com/hidayetzadeyusif-cell/stacksprout/blob/main/LICENSE).
 
 ---
 
