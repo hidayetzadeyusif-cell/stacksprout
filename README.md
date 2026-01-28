@@ -30,9 +30,12 @@ StackSprout makes recursion *visible*. Unlike debuggers that show the state at a
 ---
 
 ## Installation
-PyPI release coming shortly.
+Install from PyPI:
+```bash
+pip install stacksprout
+```
 
-For now, install from source:
+Or install from source:
 ```bash
 pip install .
 ```
